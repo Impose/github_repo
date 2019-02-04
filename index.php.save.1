@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Test Page</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min
+  <style>
+   .btn{
+     display:block;
+     position:relative;
+     float:left;
+     width:100px;
+     padding:10px 0;
+     background-color:blue;
+     color:white;
+     border-radius:5px;
+     text-align:center;
+     margin:10px;
+    }
+    .btn:hover{
+     background-color:yellow;
+     color:black;
+    }
+    a.picam_on, a.picam_off{
+     text-decoration:none;
+    }
+    a.picam_on .btn{
+     background-color:green;
+    }
+    a.picam_on .btn:hover{
+     background-color:yellow;
+    }
+    a.picam_off .btn:hover{
+     background-color:blue;
+     color:white;
+    }
+    a.picam_off .btn{
+     background-color:red;
+    }
+  </style>
+
+
+
+</head>
+
+<body>
+  <script src="js/scripts.js"></script>
+  <h2>It worked!</h2>
+  <a class=picam_on btn" href="#"><div class="btn" id="picam-on">Turn PiCam On</div></a>
+  <a class=picam_off btn" href="#"><div class="btn" id="picam-off">Turn PiCam Off</div></a>
+</body>
+</html>

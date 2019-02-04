@@ -1,0 +1,380 @@
+body{
+	display:block;
+	width:100%;
+	height:100%;
+	background-color:black;
+	background-image:url('/../images/bg.jpg');
+	background-position:top center;
+	background-repeat:no-repeat;
+	overflow-x:hidden;
+}
+h1{
+	display:block;
+	position:relative;
+	text-align:center;
+	color:white;
+	text-shadow:1px 1px 10px black;
+	font-size:3em;
+}
+.checkbox-container{
+	display:none;
+}
+.select-subheader, h3{
+	display:block;
+	position:relative;
+	text-align:center;
+	width:100%;
+	color:white;
+	text-shadow:1px 1px 10px black;
+	font-size:2em;
+	margin-bottom:5%;
+}
+.radio{
+	display:block;
+	position:relative;
+	width:31%;
+	float:left;
+	text-align:center;
+	background:black;
+	color:white;
+	margin-left:1%;
+	border:1px solid white;
+	box-shadow:1px 1px 10px black;
+	padding:100px 0;
+	overflow:hidden;
+}
+.radio label{
+	padding-top:75px;
+	font-size:2em;
+	clear:both;
+	cursor:pointer;
+	z-index:90;
+	top:20%;
+}
+.radio input, .radio label{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+}
+.radio input[type="radio"]{
+	opacity:0.01;
+	z-index:100;
+}
+.radio input[type="radio"]:checked + label, .checked + label{
+	background:grey;
+	color:yellow;
+}
+.radio-options{
+	list-style-type:none;
+	margin:25px 0 100px 0;
+	padding:0;
+	height:202px;
+}
+
+.results-options{
+	display:block;
+	position:relative;
+	list-style-type:none;
+	margin:25px auto;
+	padding:0;
+	height:auto;
+	max-width:80%;
+}
+.results-options label{
+	padding-top:75px;
+	font-size:2em;
+	clear:both;
+	cursor:pointer;
+	z-index:90;
+	top:20%;
+}
+.results-options input, .results-options label{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+}
+.results-options input[type="checkbox"]{
+	opacity:0.01;
+	z-index:100;
+}
+.results-options input[type="checkbox"]:checked + label, .checked + label{
+	background:grey;
+	color:yellow;
+}
+.checkbox{
+	display:block;
+	position:relative;
+	width:200px;
+	height:200px;
+	float:left;
+	text-align:center;
+	background:black;
+	color:white;
+	margin:1%;
+	border:1px solid white;
+	box-shadow:1px 1px 10px black;
+	padding:0px 20px;
+	overflow:hidden;
+}
+.list-submit{
+	display:block;
+	position:relative;
+	clear:both;
+	width:30%;
+	height:100px;
+	margin:20px auto;
+	height:200px;
+	box-shadow:1px 1px 10px black;
+
+}
+.list-submit input:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9ae00+2,edd72f+100 */
+	background: #f9ae00; /* Old browsers */
+	background: -moz-linear-gradient(top, #f9ae00 2%, #edd72f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f9ae00 2%,#edd72f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f9ae00 2%,#edd72f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ae00', endColorstr='#edd72f',GradientType=0 ); /* IE6-9 */
+	cursor:pointer;
+}
+.list-submit input{
+	display:block;
+	position:relative;
+	width:100%;
+	height:200px;
+	color:white;
+	text-shadow:2px 2px 5px black;
+	font-size:2em;
+	border:none;
+	margin:5% 0 0 0;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#edd72f+0,f9ae00+100 */
+	background: #edd72f; /* Old browsers */
+	background: -moz-linear-gradient(top, #edd72f 0%, #f9ae00 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #edd72f 0%,#f9ae00 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #edd72f 0%,#f9ae00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edd72f', endColorstr='#f9ae00',GradientType=0 ); /* IE6-9 */
+	
+}
+.results-page-container{
+	display:block;
+	position:relative;
+	width:100%;
+}
+.results-page-container h3{
+	display:block;
+	position:relative;
+	float:left;
+	width:300px;
+	height:300px;
+	font-size:1.5em;
+	margin:10px 1%;
+	text-align:center;
+	background:white;
+	border:5px solid black;
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-top:10px;
+	text-decoration:underline;
+	color:black;
+	text-shadow:none;
+	
+}
+.reset{
+	display:block;
+	position:relative;
+	width:200px;
+	height:55px;
+	text-decoration:none;
+	color:black;
+	text-align:center;
+	margin:20px auto;
+	padding-top:18px;
+	font-size:2em;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#edd72f+0,f9ae00+100 */
+	background: #edd72f; /* Old browsers */
+	background: -moz-linear-gradient(top, #edd72f 0%, #f9ae00 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #edd72f 0%,#f9ae00 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #edd72f 0%,#f9ae00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edd72f', endColorstr='#f9ae00',GradientType=0 ); /* IE6-9 */
+	
+
+}
+.reset:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9ae00+2,edd72f+100 */
+	background: #f9ae00; /* Old browsers */
+	background: -moz-linear-gradient(top, #f9ae00 2%, #edd72f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f9ae00 2%,#edd72f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f9ae00 2%,#edd72f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9ae00', endColorstr='#edd72f',GradientType=0 ); /* IE6-9 */
+}
+h3.mode-result{
+	float:none;
+	margin:20px auto;
+
+}
+footer p{
+	background:black;
+	color:white;
+	text-shadow:1px 1px 10px black;
+	width:50%;
+	margin:0 auto;
+	font-size:1.75em;
+	text-align:center;
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3.AKM{
+	background-image:url('../images/weapons/AKM.png');
+}
+h3.M16A4{
+	background-image:url('../images/weapons/M16A4.png');
+}
+h3.M416{
+	background-image:url('../images/weapons/M416.png');
+}
+h3.SCAR-L{
+	background-image:url('../images/weapons/SCAR-L.png');
+}
+h3.DP{
+	background-image:url('../images/weapons/DP28.png');
+}
+h3.CROSSBOW{
+	background-image:url('../images/weapons/Crossbow.png');
+}
+h3.P18C{
+	background-image:url('../images/weapons/P18C.png');
+}
+h3.P1911{
+	background-image:url('../images/weapons/M1911.png');
+}
+h3.P92{
+	background-image:url('../images/weapons/P92.png');
+}
+h3.R1895{
+	background-image:url('../images/weapons/NagantM1895.png');
+}
+h3.R45{
+	background-image:url('../images/weapons/R45.png');
+}
+h3.S12K{
+	background-image:url('../images/weapons/Saiga12.png');
+}
+h3.S1897{
+	background-image:url('../images/weapons/S1897.png');
+}
+h3.S686{
+	background-image:url('../images/weapons/R686.png');
+}
+h3.SAWEDOFF{
+	background-image:url('../images/weapons/SawedOff.png');
+}
+h3.AWM{
+	background-image:url('../images/weapons/AWM.png');
+}
+h3.KAR98{
+	background-image:url('../images/weapons/Kar98k.png');
+}
+h3.VSS{
+	background-image:url('../images/weapons/VSS.png');
+}
+h3.WINCHESTER{
+	background-image:url('../images/weapons/Win94.png');
+}
+h3.MINI14{
+	background-image:url('../images/weapons/Mini14.png');
+}
+h3.SKS{
+	background-image:url('../images/weapons/SKS.png');
+}
+h3.MICRO-UZI{
+	background-image:url('../images/weapons/UZI.png');
+}
+h3.TOMMY-GUN{
+	background-image:url('../images/weapons/Thompson.png');
+}
+h3.UMP9{
+	background-image:url('../images/weapons/UMP.png');
+}
+h3.VECTOR{
+	background-image:url('../images/weapons/Vector.png');
+}
+h3.ANGLED{
+	background-image:url('../images/weapons/AngledForeGrip.png');
+}
+h3.QUIVER{
+	background-image:url('../images/weapons/Crossbow.png');
+}
+h3.VERTICAL{
+	background-image:url('../images/weapons/VerticalForegrip.png');
+}
+h3.QUICK, h3.EXTENDED{
+	background-image:url('../images/weapons/ExtendedQuickDraw.png');
+}
+h3.CHOKE{
+	background-image:url('../images/weapons/MuzzleChoke.png');
+}
+h3.COMPENSATOR{
+	background-image:url('../images/weapons/Compensator.png');
+}
+h3.FLASH{
+	background-image:url('../images/weapons/FlashHider.png');
+}
+h3.SUPPRESSOR{
+	background-image:url('../images/weapons/Suppressor.png');
+}
+h3.TWO-X-SCOPE{
+	background-image:url('../images/weapons/2XScope.png');
+}
+h3.FOUR-X-SCOPE{
+	background-image:url('../images/weapons/4xScope.png');
+}
+h3.EIGHT-X-SCOPE{
+	background-image:url('../images/weapons/8xScope.png');
+}
+h3.RED{
+	background-image:url('../images/weapons/RedDot.png');
+}
+h3.HOLOGRAPHIC{
+	background-image:url('../images/weapons/Holosight.png');
+}
+h3.BULLET{
+	background-image:url('../images/weapons/BulletLoops.png');
+}
+h3.CHEEK{
+	background-image:url('../images/weapons/CheekPad.png');
+}
+h3.STOCK{
+	background-image:url('../images/weapons/Stock.png');
+}
