@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <h1>Random PUBG Weapon, Attachment, & Mode Selector Results</h1>
+  <h1>Random PUBG Weapon, Attachment, &amp; Mode Selector Results</h1>
   <h2 class="select-subheader">RESULTS</h2>
 
 	<a class="reset" href="http://192.168.1.165">RESET</a>
@@ -278,5 +278,6 @@
 </body>
 <footer>
 <p>PLAYERUNKNOWN'S BATTLEGROUNDS, logo, photos, &amp; text are property of Bluehole, Inc.</p>
+<h2>I made this one day while I was bored. If you use the website and would like more features or have any requests, please contact me: <a href="mailto:Impose08@gmail.com">Impose08@gmail.com</a> </h2>
 </footer>
 </html>
