@@ -232,6 +232,26 @@ footer p{
 	text-align:center;
 	clear:both;
 }
+h2.contact{
+	direction: block;
+	position: relative;
+	text-align: center;
+	margin:0 auto;
+	color:white;
+	background:black;
+	padding:10px;
+	box-shadow: 1px 1px 20px black;
+}
+h2.update{
+	direction: block;
+	position: relative;
+	text-align: center;
+	margin:0 auto;
+	color:white;
+	background:black;
+	padding:10px;
+	box-shadow: 1px 1px 20px black;
+}
 
 
 
@@ -366,6 +386,15 @@ h3.QUIVER{
 h3.VERTICAL{
 	background-image:url('../images/weapons/VerticalForegrip.png');
 }
+h3.HALF{
+	background-image:url('../images/weapons/Half_Grip.png');
+}
+h3.THUMB{
+	background-image:url('../images/weapons/Thumb_grip.png');
+}
+h3.LIGHT{
+	background-image:url('../images/weapons/Light_Grip.png');
+}
 h3.QUICK, h3.EXTENDED{
 	background-image:url('../images/weapons/ExtendedQuickDraw.png');
 }
@@ -384,11 +413,20 @@ h3.SUPPRESSOR{
 h3.TWO-X-SCOPE{
 	background-image:url('../images/weapons/2XScope.png');
 }
+h3.THREE-X-SCOPE{
+	background-image:url('../images/weapons/3XScope.png');
+}
 h3.FOUR-X-SCOPE{
 	background-image:url('../images/weapons/4xScope.png');
 }
+h3.SIX-X-SCOPE{
+	background-image:url('../images/weapons/6XScope.png');
+}
 h3.EIGHT-X-SCOPE{
 	background-image:url('../images/weapons/8xScope.png');
+}
+h3.CANTED{
+	background-image:url('../images/weapons/CantedScope.png');
 }
 h3.RED{
 	background-image:url('../images/weapons/RedDot.png');
