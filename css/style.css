@@ -270,6 +270,18 @@ h3.SCAR-L{
 h3.DP{
 	background-image:url('../images/weapons/DP28.png');
 }
+h3.G36C{
+	background-image:url('../images/weapons/G36C.png');
+}
+h3.QBZ95{
+	background-image:url('../images/weapons/QBZ.png');
+}
+h3.Beryl-M762{
+	background-image:url('../images/weapons/Beryl.png');
+}
+h3.Mk47-Mutant{
+	background-image:url('../images/weapons/Mutant.png');
+}
 h3.CROSSBOW{
 	background-image:url('../images/weapons/Crossbow.png');
 }
@@ -287,6 +299,9 @@ h3.R1895{
 }
 h3.R45{
 	background-image:url('../images/weapons/R45.png');
+}
+h3.SKORPION{
+	background-image:url('../images/weapons/skorpion.png');
 }
 h3.S12K{
 	background-image:url('../images/weapons/Saiga12.png');
@@ -318,6 +333,15 @@ h3.MINI14{
 h3.SKS{
 	background-image:url('../images/weapons/SKS.png');
 }
+h3.M24{
+	background-image:url('../images/weapons/M24.png');
+}
+h3.QBU{
+	background-image:url('../images/weapons/QBU.png');
+}
+h3.SLR{
+	background-image:url('../images/weapons/SLR.png');
+}
 h3.MICRO-UZI{
 	background-image:url('../images/weapons/UZI.png');
 }
@@ -329,6 +353,9 @@ h3.UMP9{
 }
 h3.VECTOR{
 	background-image:url('../images/weapons/Vector.png');
+}
+h3.PP-19-Bizon{
+	background-image:url('../images/weapons/bizon.png');
 }
 h3.ANGLED{
 	background-image:url('../images/weapons/AngledForeGrip.png');

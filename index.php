@@ -28,7 +28,7 @@
   </script>
 </head>
 <body>
-  <h1>Random PUBG Weapon, Attachment, & Mode Selector</h1>
+  <h1>Random PUBG Weapon, Attachment, &amp; Mode Selector</h1>
 
   <h2 class="select-subheader">Select the Randomization You'd Prefer</h2>>
 <ul class="radio-options">
@@ -117,7 +117,7 @@
 
 </body>
 <footer>
-<p>PLAYERUNKNOWN'S BATTLEGROUNDS, logo, photos, & text are property of Bluehole, Inc.</p>
+<p>PLAYERUNKNOWN'S BATTLEGROUNDS, logo, photos, &amp; text are property of Bluehole, Inc.</p>
 </footer>
 </html>
 

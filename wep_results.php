@@ -277,6 +277,6 @@
 
 </body>
 <footer>
-<p>PLAYERUNKNOWN'S BATTLEGROUNDS, logo, photos, & text are property of Bluehole, Inc.</p>
+<p>PLAYERUNKNOWN'S BATTLEGROUNDS, logo, photos, &amp; text are property of Bluehole, Inc.</p>
 </footer>
 </html>
