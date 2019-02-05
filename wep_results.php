@@ -16,7 +16,7 @@
    <h2 class="update">UPDATED 02-04-2019</h2>
   <h2 class="select-subheader">RESULTS</h2>
 
-	<a class="reset" href="http://192.168.1.165">RESET</a>
+	<a class="reset" href="https://pubgrandomizer.com">RESET</a>
 	<div class="results-page-container">
 		<?php
 			if ($_POST["all-wep"] == TRUE){
